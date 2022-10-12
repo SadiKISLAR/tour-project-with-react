@@ -7,11 +7,7 @@ const Main = () => {
         <div className="card-container">
             {data.map((item, index)=> <Card {...item} key={index}/>
             )}
-        </div>
-        
-
-        
-        
+        </div>  
     )
 }
 
